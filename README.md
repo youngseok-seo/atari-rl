@@ -11,7 +11,7 @@ In a Markov Decision Process, the agent can choose its next action purely based 
 In the discrete space (for example, a 10 x 10 grid), each state-action pair can be converted into a table (called the Q-table) that updates after every time the agent traverses through the environment from a predetermined 'start' to 'finish'.
 This is called Q-Learning, and it is a problem that can be solved using dynamic programming.
 
-When scaling to a much larger and more complex environments, such as in video games, the traditional Q-table becomes less feasible; since there can be a very large number of states, it becomes unrealistic to store every piece of information in a table.
+When scaling to much larger and more complex environments, such as in video games, the traditional Q-table becomes less feasible; since there can be a very large number of states, it becomes unrealistic to store every piece of information in a table.
 This problem can be solved by using a neural network to estimate the next set of actions at any given state. 
 Called the Deep Q Network (DQN), this approach allows the agent to calculate "trajectories" between time steps and apply the knowledge to make the next decision.
 
