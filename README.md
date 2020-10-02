@@ -1,8 +1,10 @@
 # RL Atari Player
 
+![gif](https://github.com/youngseok-seo/atari-rl/blob/master/master-seaquest-10k-80.gif)
+
 The RL Atari Player uses reinforcement learning to obtain information about Atari 2600 games from the screen and produce optimal moves.
 
-### Introduction
+### Concept
 
 A reinforcement learning (RL) agent uses rewards and observations from the environment to adapt and make decisions. 
 In a Markov Decision Process, the agent can choose its next action purely based on the current state and the set of possible next states.
